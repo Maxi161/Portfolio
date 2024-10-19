@@ -4,8 +4,8 @@
 
 export default function Carta (){
   return (
-    <section className={`border-red-600 border-2 p-2 lg:w-1/3 w-screen h-auto`}>
-      <div className={`flex`}>
+    <section className={`border-red-600 border-2 lg:w-1/3 w-auto h-auto`}>
+      <div className={`flex justify-center`}>
         <img src={`https://i.pinimg.com/564x/5a/f7/c3/5af7c31caf9cfde7d6e0fd803d09be44.jpg`}
           // width={500}
           // height={500}
