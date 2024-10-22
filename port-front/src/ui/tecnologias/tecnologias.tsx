@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function Tecs() {
   return (
     <>
-      <section className="flex flex-col w-screen overflow-hidden">
+      <section className="flex flex-col w-11/12">
         <h3 className="sm:block text-center text-3xl mt-12">
           Las Tecnologías que manejo
         </h3>
 
-      <div className="flex flex-wrap space-x-5 mt-3 justify-evenly">
+      <div className="flex flex-wrap space-x-5 space-y-5 mt-3 justify-evenly">
       <a href="https://nestjs.com" target="_blank" rel="noopener noreferrer">
           <Image
             src="icons-tecs/devicon--nestjs.svg"
@@ -134,6 +134,22 @@ export default function Tecs() {
             style={{ objectFit: "contain" }}
           />
         </a>
+
+        <a
+          href="https://socket.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="icons-tecs/logos--websocket.svg"
+            alt="WebSocket"
+            className="hover:scale-125 transition-all"
+            width={70}
+            height={70}
+            style={{ objectFit: "contain" }}
+          />
+        </a>
+
       </div>
 
       </section>
